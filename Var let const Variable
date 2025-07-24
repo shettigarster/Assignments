@@ -1,0 +1,13 @@
+const browsername ='Chrome'
+
+function getbrowsername(browsername){
+    if (browsername ==='Chrome')
+{
+        var newbrowsername = 'firefox';
+        console.log('var variable scope only within the block'+ newbrowsername)
+        
+    
+}
+console.log('const variable accessible outside the block' + browsername )
+}
+getbrowsername(browsername);
