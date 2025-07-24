@@ -1,0 +1,13 @@
+let number =9;
+function isoddoreven(x){
+if (x%2 ===0){
+    console.log( 'This is Even number');
+    
+}
+else {
+console.log('This is odd number');
+
+
+}
+}
+isoddoreven(number)
