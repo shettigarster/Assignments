@@ -1,0 +1,19 @@
+let number =0
+
+function numbertype (x){
+    if (x>0) {
+        return x + 'is positive number';
+    }
+    else {
+        if (x<0) {
+            return x + 'is negative number';
+    }
+    else {
+        if (x===0){
+            return x + 'is neutral';
+        }
+
+    }
+    }
+}
+console.log(numbertype(number));
