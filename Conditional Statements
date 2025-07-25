@@ -1,0 +1,37 @@
+function launchBrowser(browsername) {
+    if (browsername === 'chrome'){
+        console.log('chrome browser is launched');
+
+        
+    } else {
+        console.log('This is not a chrome browser');
+        
+
+    }
+    
+}
+ function runtests(testtype) {
+    switch (testtype) {
+        case 'smoke':
+            console.log('This is smoke test');
+            
+            break;
+
+            case 'sanity':
+            console.log('This is sanity test');
+            
+            break;
+
+            case 'regression':
+            console.log('This is regression test');
+            
+            break;
+    
+        default:
+            console.log('This is default test' );
+            
+            break;
+    }
+ }
+launchBrowser('chrome')
+runtests ('sanity')
