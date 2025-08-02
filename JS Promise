@@ -1,0 +1,22 @@
+const conditionalpromise = new Promise((resolve, reject) => {
+    const randomnumber =Math.random ();
+
+    if (randomnumber>0.5) {
+        resolved (`resolved successfully`);
+        {else {
+            reject (`rejected`);
+        }
+
+        }
+        
+    }
+});
+conditionalpromise .then ((message ) => {
+    console.log(`success`,message);
+    
+})
+.catch((error) =>{
+    console.log(`error`,error();
+    );
+    
+});
