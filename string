@@ -1,0 +1,31 @@
+1) 
+function lengthoflastword(D) {
+    const word = D.split('');
+    const filterword= word.filter(word =>word !=='');
+    const lastword = filterword[filterword.length -1];
+    return lastword.length;
+
+    
+}
+
+console.log(lengthoflastword('hello world'));
+console.log(lengthoflastword ('fly me to the moon'));
+
+
+2) 
+function lengthOfLastWordTrimmed(s) {
+    const trimmed =s.trim ();
+    const words =trimmed.spilt (" ");
+    const lastword =words[words.length-1];
+    return lastword.length;
+    
+}
+    console.log(lengthOfLastWordTrimmed("fly me to the moon"));
+
+    3)    function isAnagram(str1,str2) {
+        const format = str=> str.replace(/\s+/g," ").LowerCase().split("").sort().join ("");
+        return format (str1) === format (str2);
+        
+    }
+    console.log(isAnagram("listen", "silent"));
+    console.log(isAnagram ("hello", "world"));
